@@ -1,0 +1,19 @@
+:root {
+  --primary: #c1ebff;
+  --secondary: #e9d7ff;
+  --dark-text: #001931;
+  --light-text: #ecf6ff;
+}
+
+body {
+  font-family: 'Arvo', serif;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.2s;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
